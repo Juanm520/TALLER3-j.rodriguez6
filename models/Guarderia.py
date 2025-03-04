@@ -8,7 +8,7 @@ class Guarderia:
         self.__huron1 = Huron('Pablo', 3.4, 2, 'Canada', 31040.8)
         self.__huron1 = Huron('Patricia', 4.2, 4, 'Canada', 31040.8)
 
-    def alimentar_boa(self, nombre: str) -> None:
+    def alimentar_boa(self, nombre: str) -> str:
         if nombre == self.__boa1.nombre:
             boa = self.__boa1
         elif nombre == self.__boa2.nombre:
